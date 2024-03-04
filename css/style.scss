@@ -1,3 +1,21 @@
 
+$theme-colors: (
+  "black":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
 
+  
+ 
+
+
+
+$carousel-control-opacity:           .5;
+
+$carousel-indicator-transition:      opacity .5s ease;
 @import "../node_modules/bootstrap/scss/bootstrap"
