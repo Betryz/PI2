@@ -1,21 +1,95 @@
 
-$theme-colors: (
-  "black":    $primary,
-  "secondary":  $secondary,
-  "success":    $success,
-  "info":       $info,
-  "warning":    $warning,
-  "danger":     $danger,
-  "light":      $light,
-  "dark":       $dark
-);
-
-  
- 
 
 
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 
+$carousel-indicator-transition:      opacity .5s;
 $carousel-control-opacity:           .5;
+ body {
+  background-color: #EBE8CE;
+ }
+ 
+*{
+  font-family: "Sansita", sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #332e00;
+};
 
-$carousel-indicator-transition:      opacity .5s ease;
-@import "../node_modules/bootstrap/scss/bootstrap"
+
+
+header span{
+  color: #332e00;
+
+}
+.nav .nav-link{
+  font-size: 20px;
+
+  --bs-nav-pills-link-active-bg: #332e00;
+  --bs-nav-pills-link-active-color: #EBE8CE;
+
+  color: #332e00;
+}
+.nav-tabs{
+  color: #332e00;
+ 
+ 
+}
+
+footer{
+  background-color: #EBE8CE;
+ 
+}
+footer p{
+  font-size: 15px;
+}
+
+footer div {
+  color: #332e00;
+  font-size: 20px;
+}
+.nav-link{
+  color: #332e00;
+  font-size: 15px;
+}
+
+.carousel-inner img{
+  
+  height: 500px;
+  border-radius: 20px;
+} 
+.offcanvas {
+  background-color: #c0bb91;
+}
+.form-range{
+  height: 0.5rem;
+  border-radius: 10px;
+}
+#lili{
+  color: #332e00;
+
+  height: 5px;
+  width:500px ;
+
+}
+
+
+#fundo{
+  background-color: #c0bb91;
+}
+#letra{
+  color: #EBE8CE;
+}
+.row img {
+  border-radius: 20px;
+}
+#linha{
+text-align: justify;
+}
+
+
+
+.i{
+  height: 400px;
+  width: 500px;
+}

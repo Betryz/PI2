@@ -6,8 +6,8 @@
  */
 :root,
 [data-bs-theme=light] {
-  
-  
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
   --bs-red: #dc3545;
@@ -46,10 +46,11 @@
   --bs-light-rgb: 248, 249, 250;
   --bs-dark-rgb: 33, 37, 41;
   --bs-primary-text-emphasis: #052c65;
-  --bs-secondary-text-emphasis: #2b2f32;
-  --bs-success-text-emphasis: #0a3622;
+  --bs-secondary-text-emphasis: #2b3315;
+
+--bs-success-text-emphasis: #332e00;
   --bs-info-text-emphasis: #055160;
-  --bs-warning-text-emphasis: #664d03;
+  --bs-warning-text-emphasis: #ffda6a;
   --bs-danger-text-emphasis: #58151c;
   --bs-light-text-emphasis: #495057;
   --bs-dark-text-emphasis: #495057;
@@ -11843,6 +11844,85 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+body {
+  background-color: #EBE8CE;
+}
+
+* {
+  font-family: "Sansita", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #332e00;
+}
+
+header span {
+  color: #332e00;
+}
+
+.nav .nav-link {
+  font-size: 20px;
+  --bs-nav-pills-link-active-bg: #332e00;
+  --bs-nav-pills-link-active-color: #EBE8CE;
+  color: #332e00;
+}
+
+.nav-tabs {
+  color: #332e00;
+}
+
+footer {
+  background-color: #EBE8CE;
+}
+
+footer p {
+  font-size: 15px;
+}
+
+footer div {
+  color: #332e00;
+  font-size: 20px;
+}
+
+.nav-link {
+  color: #332e00;
+  font-size: 15px;
+}
+
+.carousel-inner img {
+  height: 500px;
+  border-radius: 20px;
+}
+
+.offcanvas {
+  background-color: #c0bb91;
+}
+
+.form-range {
+  height: 0.5rem;
+  border-radius: 10px;
+}
+
+#lili {
+  color: #332e00;
+  height: 5px;
+  width: 300px;
+}
+
+#lulu {
+  height: 3px;
+}
+
+#fundo {
+  background-color: #332e00;
+}
+
+#letra {
+  color: #EBE8CE;
+}
+
+.row img {
+  border-radius: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
