@@ -46,11 +46,10 @@
   --bs-light-rgb: 248, 249, 250;
   --bs-dark-rgb: 33, 37, 41;
   --bs-primary-text-emphasis: #052c65;
-  --bs-secondary-text-emphasis: #2b3315;
-
---bs-success-text-emphasis: #332e00;
+  --bs-secondary-text-emphasis: #2b2f32;
+  --bs-success-text-emphasis: #0a3622;
   --bs-info-text-emphasis: #055160;
-  --bs-warning-text-emphasis: #ffda6a;
+  --bs-warning-text-emphasis: #664d03;
   --bs-danger-text-emphasis: #58151c;
   --bs-light-text-emphasis: #495057;
   --bs-dark-text-emphasis: #495057;
@@ -11906,11 +11905,7 @@ footer div {
 #lili {
   color: #332e00;
   height: 5px;
-  width: 300px;
-}
-
-#lulu {
-  height: 3px;
+  width: 500px;
 }
 
 #fundo {
@@ -11923,6 +11918,19 @@ footer div {
 
 .row img {
   border-radius: 20px;
+}
+
+#linha {
+  text-align: justify;
+}
+
+.i {
+  height: 400px;
+  width: 500px;
+}
+
+.bloco404 {
+  font-size: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */
