@@ -11853,6 +11853,7 @@ body {
   font-weight: 400;
   font-style: normal;
   color: #332e00;
+  text-align: justify;
 }
 
 header span {
@@ -11868,10 +11869,6 @@ header span {
 
 .nav-tabs {
   color: #332e00;
-}
-
-footer {
-  background-color: #EBE8CE;
 }
 
 footer p {
@@ -11931,6 +11928,83 @@ footer div {
 
 .bloco404 {
   font-size: 25px;
+}
+
+.nana .icon-link {
+  color: #EBE8CE;
+}
+
+.vaca {
+  background-image: url(../img/download\ 1\ \(1\).png);
+}
+
+.bloco {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.featurette {
+  margin-bottom: 40px;
+}
+
+.featurette h2, .featurette .h2 {
+  margin-bottom: 20px;
+}
+
+.featurette p {
+  margin-bottom: 20px;
+}
+
+.featurette img {
+  max-width: 100%;
+  height: auto;
+}
+
+.calendario {
+  display: flex;
+}
+
+.cal-weekdays, .cal-days {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(7, 2fr);
+}
+
+.cal-month > strong {
+  text-align: center;
+}
+
+.form-check-input:checked {
+  background-color: #332e00;
+  border-color: #332e00;
+}
+
+.btn:hover {
+  color: #332e00;
+  background-color: #332e00;
+  border-color: #332e00;
+}
+
+.bp {
+  border-color: #332e00;
+  background-color: #332e00;
+}
+
+.bpc {
+  color: #EBE8CE;
+}
+
+.bg-transparent {
+  border-color: #332e00;
+}
+
+.row {
+  padding: 25px;
+}
+
+.border .border-black {
+  border-color: #332e00;
 }
 
 /*# sourceMappingURL=style.css.map */

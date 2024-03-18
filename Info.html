@@ -4,100 +4,298 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.scss">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <section class="py-7 py-md-9 border-bottom">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-12 col-md-8 col-lg-6 text-center">
-              <!-- Heading -->
-              <h2 class="mb-2">What clients say about us</h2>
-  
-              <!-- Subheading -->
-              <p class="mb-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </div>
+  <div class="container">
+    <header
+    class="d-flex flex-wrap  justify-content-center align-items-center py-1 mb-3 border-bottom form-check-input:checked ">
+
+    <header class="navbar  ">
+      <div class="container-fluid mb-2">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Eco Trilhas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
-          <div class="row">
-            <div class="col-12">
-              <!-- Slider -->
-              <div data-flickity="{&quot;imagesLoaded&quot;: true, &quot;wrapAround&quot;: true}" class="flickity-enabled is-draggable" tabindex="0">
-                
-                
-                
-              <div class="flickity-viewport" style="height: 518.766px;"><div class="flickity-slider" style="transform: translateX(-200%);"><div class="w-100 flickity-cell" style="transform: translateX(300%);" aria-hidden="true">
-                  <div class="row align-items-center justify-content-center">
-                    <div class="col-8 col-md-3 order-md-1">
-                      <!-- Avatar -->
-                      <img class="img-fluid rounded-circle mb-5 mb-md-0" src="assets/img/20.jpg" alt="...">
-                    </div>
-                    <div class="col-md-7 order-md-0">
-                      <!-- Blockquote -->
-                      <figure class="mx-auto mb-0" style="max-width: 500px">
-                        <blockquote class="blockquote mb-0">
-                          <p class="font-serif text-body-emphasis mb-5">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos at veritatis vitae modi ex quis quibusdam error repudiandae adipisci
-                            dolore perspiciatis iste, vel fuga a, libero architecto ratione deleniti sequi.
-                          </p>
-                        </blockquote>
-                        <figcaption class="blockquote-footer text-xs mb-0">Liam Smith</figcaption>
-                      </figure>
-                    </div>
-                  </div>
-                </div><div class="w-100 flickity-cell" style="transform: translateX(100%);" aria-hidden="true">
-                  <div class="row align-items-center justify-content-center">
-                    <div class="col-8 col-md-3 order-md-1">
-                      <!-- Avatar -->
-                      <img class="img-fluid rounded-circle mb-5 mb-md-0" src="assets/img/21.jpg" alt="...">
-                    </div>
-                    <div class="col-md-7 order-md-0">
-                      <!-- Blockquote -->
-                      <figure class="mx-auto mb-0" style="max-width: 500px">
-                        <blockquote class="blockquote mb-0">
-                          <p class="font-serif text-body-emphasis mb-5">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos at veritatis vitae modi ex quis quibusdam error repudiandae adipisci
-                            dolore perspiciatis iste, vel fuga a, libero architecto ratione deleniti sequi.
-                          </p>
-                        </blockquote>
-                        <figcaption class="blockquote-footer text-xs mb-0">Olivia Johnson</figcaption>
-                      </figure>
-                    </div>
-                  </div>
-                </div><div class="w-100 flickity-cell is-selected" style="transform: translateX(200%);">
-                  <div class="row align-items-center justify-content-center">
-                    <div class="col-8 col-md-3 order-md-1">
-                      <!-- Avatar -->
-                      <img class="img-fluid rounded-circle mb-5 mb-md-0" src="assets/img/22.jpg" alt="...">
-                    </div>
-                    <div class="col-md-7 order-md-0">
-                      <!-- Blockquote -->
-                      <figure class="mx-auto mb-0" style="max-width: 500px">
-                        <blockquote class="blockquote mb-0">
-                          <p class="font-serif text-body-emphasis mb-5">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos at veritatis vitae modi ex quis quibusdam error repudiandae adipisci
-                            dolore perspiciatis iste, vel fuga a, libero architecto ratione deleniti sequi.
-                          </p>
-                        </blockquote>
-                        <figcaption class="blockquote-footer text-xs mb-0">Emma Williams</figcaption>
-                      </figure>
-                    </div>
-                  </div>
-                </div></div></div><button class="flickity-button flickity-prev-next-button previous" type="button" aria-label="Previous"><svg class="flickity-button-icon" viewBox="0 0 100 100"><title>Previous</title><path d="M 10, 50
-      L 60, 100
-      L 70, 90
-      L 30, 50
-      L 70, 10
-      L 60, 0
-      Z" class="arrow"></path></svg></button><button class="flickity-button flickity-prev-next-button next" type="button" aria-label="Next"><svg class="flickity-button-icon" viewBox="0 0 100 100"><title>Next</title><path d="M 10, 50
-      L 60, 100
-      L 70, 90
-      L 30, 50
-      L 70, 10
-      L 60, 0
-      Z" class="arrow" transform="translate(100, 100) rotate(180)"></path></svg></button><div class="flickity-page-dots"><button type="button" class="flickity-page-dot">View slide 1</button><button type="button" class="flickity-page-dot">View slide 2</button><button type="button" class="flickity-page-dot is-selected" aria-current="step">View slide 3</button></div></div>
-            </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Conta do Usuário
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Login</a></li>
+                  <li><a class="dropdown-item" href="#">Criar conta</a></li>
+                  <li>
+
+                </ul>
+              </li>
+
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Gerenciamento
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Mudanças</a></li>
+                  <li><a class="dropdown-item" href="#">Ajuda</a></li>
+                  <li>
+
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Navegação do site
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Visitas</a></li>
+                  <li><a class="dropdown-item" href="#">Ingressos</a></li>
+                  <li><a class="dropdown-item" href="Info.html">Guia</a></li>
+                  <li><a class="dropdown-item" href="#">Contatos</a></li>
+                  <li>
+
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Pesquise" aria-label="Search">
+              <button class="btn btn-outline-dark" type="submit">Buscar</button>
+            </form>
           </div>
         </div>
-      </section>
+      </div>
+    </header>
+
+
+
+    <a href="/"
+      class="d-flex flex-row-reverse align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+      <span class="fs-1 -- display-5 fw-bold text-body-emphasis"> <img src="img/logo.png" alt=""
+          style="width: 100px;"> Eco Trilhas</span>
+    </a>
+
+    <ul class="nav nav-pills nav-tabs ">
+      <li class="nav-item"><a href="index.html" class="nav-link active " aria-current="">Visitas</a></li>
+      <li class="nav-item"><a href="ingresso.html" class="nav-link">Ingressos </a></li>
+      <li class="nav-item"><a href="Info.html" class="nav-link">Guia</a></li>
+      <li class="nav-item"><a href="Contatos.html" class="nav-link">Contatos</a></li>
+
+    </ul>
+
+    <main>
+      <div>
+
+      <div class="row align-items-center gy-5">
+        <div class="col-lg-5" data-cue="zoomIn" data-show="true" style="animation-name: zoomIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+           <div class="d-flex flex-column gap-4">
+              <div class="d-flex flex-column gap-2">
+                 <h2>Forward-thinking IT company through innovation.</h2>
+                 <p class="mb-0">
+                    At [Your Company Name], we are more than just a technology solutions provider – we are architects of innovation, builders of digital experiences, and
+                    partners in your journey towards success.
+                 </p>
+              </div>
+              <div>
+                 <a href="#!" class="btn btn-primary rounded-pill">Our Journey</a>
+              </div>
+           </div>
+        </div>
+        <div class="col-lg-7" data-cue="zoomIn" data-show="true" style="animation-name: zoomIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+           <div class="position-relative">
+              <img src="./assets/images/landings/it-company/it-company-about-img.jpg" alt="about" class="rounded-3 img-fluid">
+
+              <a href="https://www.youtube.com/watch?v=CivuutI6lXY" class="play-btn glightbox position-absolute top-50 start-50 translate-middle icon-shape icon-xl rounded-circle text-primary">
+                 <i class="bi bi-play-fill"></i>
+              </a>
+           </div>
+        </div>
+     </div>
+
+      <div class="swiper mx-n2 swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden" data-swiper-options="{
+        &quot;spaceBetween&quot;: 8,
+        &quot;pagination&quot;: {
+          &quot;el&quot;: &quot;.swiper-pagination&quot;,
+          &quot;clickable&quot;: true
+        },
+        &quot;breakpoints&quot;: {
+          &quot;0&quot;: {
+            &quot;slidesPerView&quot;: 2
+          },
+          &quot;768&quot;: {
+            &quot;slidesPerView&quot;: 3
+          },
+          &quot;1200&quot;: {
+            &quot;slidesPerView&quot;: 4
+          }
+        }
+      }">
+
+      </div>
+      <div>
+        <div class="swiper-wrapper" id="swiper-wrapper-0107d7f8994d3a493" aria-live="polite" style="transform: translate3d(-357px, 0px, 0px); transition-duration: 0ms;">
+
+          <!-- Item -->
+          <div class="swiper-slide py-3" role="group" aria-label="1 / 4" style="width: 170.5px; margin-right: 8px;">
+            <a href="#" class="card card-body card-hover px-2 mx-2">
+              <img src="assets/img/brands/01.svg" class="d-block mx-auto my-2" width="154" alt="Brand">
+            </a>
+          </div>
+
+          <!-- Item -->
+          <div class="swiper-slide py-3 swiper-slide-prev" role="group" aria-label="2 / 4" style="width: 170.5px; margin-right: 8px;">
+            <a href="#" class="card card-body card-hover px-2 mx-2">
+              <img src="assets/img/brands/02.svg" class="d-block mx-auto my-2" width="154" alt="Brand">
+            </a>
+          </div>
+
+          <!-- Item -->
+          <div class="swiper-slide py-3 swiper-slide-active" role="group" aria-label="3 / 4" style="width: 170.5px; margin-right: 8px;">
+            <a href="#" class="card card-body card-hover px-2 mx-2">
+              <img src="assets/img/brands/03.svg" class="d-block mx-auto my-2" width="154" alt="Brand">
+            </a>
+          </div>
+
+          <!-- Item -->
+          <div class="swiper-slide py-3 swiper-slide-next" role="group" aria-label="4 / 4" style="width: 170.5px; margin-right: 8px;">
+            <a href="#" class="card card-body card-hover px-2 mx-2">
+              <img src="assets/img/brands/04.svg" class="d-block mx-auto my-2" width="154" alt="Brand">
+            </a>
+          </div>
+        </div>
+
+        <!-- Pagination (bullets) -->
+        <div class="swiper-pagination position-relative pt-2 mt-4 swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 3" aria-current="true"></span></div>
+      <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+        </div>
+
+    </main>
+
+
+    <footer class="py-2 mt-5 d-flex justify-content-center">
+            
+      <div class="row  ">
+
+        <div class="pb-5">
+
+          <input class="form-range " id="disabledRange" disabled style="background-color: #68652D;">
+        </div>
+
+        <div class="col-5 col-md-2 mb-5 ">
+
+
+        </div>
+        
+         
+        <div class="col-10 col-md-2 ">
+          <div class="nav nav-underline">
+
+            <h5 class="nav-item nav-link active">Gerenciar</h5>
+          </div>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Login</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Mudanças</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "></a>Ajuda</li>
+
+
+          </ul>
+        </div>
+
+        <div class="col-10 col-md-2 ">
+          <div class="nav nav-underline">
+
+            <h5 class="nav-item nav-link active">Navegação</h5>
+          </div>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0   ">Visitas</a></li>
+            <li class="nav-item mb-2"><a href="ingresso.html" class="nav-link p-0 ">Ingressos</a></li>
+            <li class="nav-item mb-2"><a href="Info.html" class="nav-link p-0 ">Informações</a></li>
+            <li class="nav-item mb-2"><a href="Contatos.html" class="nav-link p-0 ">Contatos</a></li>
+
+          </ul>
+        </div>
+
+
+        <div class="col-8 col-md-6  ">
+
+          <div class="nav nav-underline">
+            <h5 class="nav-item nav-link active">Eco Trilhas</h5>
+          </div>
+
+
+          <nav class="navbar bg-body-tertiaryd-flex flex-column ">
+            <div class="container-fluid ">
+              <p class="col-7" >
+                Não perca as novidades do nosso parque! Inscreva-se agora para receber atualizações diretamente no
+                seu e-mail
+              </p>
+              <form class="d-flex " role="search">
+                <input type="email" class="form-control me-2" placeholder="Email">
+                <button class="btn btn-outline-dark" type="submit">Enviar</button>
+              </form>
+
+            </div>
+          </nav>
+
+
+        </div>
+
+
+
+        <div class="d-flex flex-column flex-sm-row justify-content-center py-4 my-4   ">
+
+          <p>© 2024 Governo Municipal, de Caraguatatuba.</p>
+          <ul class="list-unstyled d-flex" class="nav-tabs">
+            <li class="ms-3 nav-item"><a class="link-body-emphasis nav-link" href="https://web.whatsapp.com/"><svg
+                  class="bi" width="24" height="24">
+                  <use xlink:href="#whatsapp"> <img src="img/whatsapp.png" alt=""></use>
+                </svg></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="https://www.instagram.com/"><svg class="bi"
+                  width="24" height="24">
+                  <use xlink:href="#instagram"> <img src="img/instagram.png" alt=""></use>
+                </svg></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#facebook"> <img src="img/facebook.png" alt=""></use>
+                </svg></a></li>
+          </ul>
+        </div>
+    </footer>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+    
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
 </body>
 </html>
